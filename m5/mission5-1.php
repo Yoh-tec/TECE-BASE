@@ -14,14 +14,11 @@
     }
 </style>
 <?php
-// ・データベース名：tb250444db
-// ・ユーザー名：tb-250444
-// ・パスワード：25aAWThVku
 
 // DB接続設定
-$dsn = 'mysql:dbname=tb250444db;host=localhost';
-$user = 'tb-250444';
-$password = '25aAWThVku';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
+$user = 'ユーザ名';
+$password = 'パスワード';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 //テーブルmission5の作成SQL
